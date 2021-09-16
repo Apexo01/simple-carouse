@@ -1,0 +1,1 @@
+a code shows how working the carousel
