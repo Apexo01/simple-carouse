@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.none {
+    display: none;
+}
+
+.carousel {
+    max-width: 1500px;
+    max-height: 500px;
+    margin: auto;
+}
+
+.carouselContent {
+    background-color: gray;
+    width: 1500px;
+    height: 500px;
+}
+
+.carouselButtons {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between
+}
