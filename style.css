@@ -4,24 +4,47 @@
     box-sizing: border-box;
 }
 
-.none {
+#carousel {
+    z-index: 0;
+    max-width: 1000px;
+    max-height: 500px;
+}
+
+#buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hiden {
     display: none;
 }
 
-.carousel {
-    max-width: 1500px;
+.carousel {    
+    max-width: 1000px;
     max-height: 500px;
     margin: auto;
+    position: relative;
 }
 
 .carouselContent {
     background-color: gray;
-    width: 1500px;
+    width: 1000px;
     height: 500px;
 }
 
-.carouselButtons {
-    z-index: 1;
-    display: flex;
-    justify-content: space-between
+.right, .back{
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.right {
+    top: 50%;
+    right: 0;
+}
+
+.back {
+    top: 50%;
+    
+    left: 0;
 }
